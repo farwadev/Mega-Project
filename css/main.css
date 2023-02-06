@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.308);
+}
+
+.container-fluid ul li a {
+  font-size: 18px;
+  color: rgba(196, 196, 196, 0.795);
+  font-weight: bold;
+}
+
+.container-fluid ul li a:hover {
+  background-color: white;
+  color: rgb(38, 0, 88);
+}
+
+.container-fluid {
+  background-color: rgb(38, 0, 88);
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: rgb(38, 0, 88);
+  background-color: rgba(145, 145, 145, 0.479);
+}
+
+.jumbotron {
+  background-color: rgb(38, 0, 88);
+}
+.jumbotron img {
+  background-color: rgb(255, 255, 255);
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+h3,
+h4 {
+  color: rgb(35, 0, 36);
+  text-shadow: 1px 1px 2px rgb(177, 177, 177), 0 0 25px rgb(255, 255, 255),
+    0 0 5px rgb(192, 192, 192);
+}
+.row video:hover {
+  box-shadow: 0 4px 8px 0 rgba(15, 15, 15, 0.76),
+    0 6px 20px 0 rgba(137, 0, 155, 0.692);
+  transform: scale(1.1);
+}
+.row video{
+    background-color: rgb(38, 0, 88) ;
+    padding: 5px;
+}
